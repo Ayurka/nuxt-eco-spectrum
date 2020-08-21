@@ -80,7 +80,7 @@ module.exports = {
     }
   },
   axios: {
-    baseURL: 'http://localhost/api'
+    baseURL: 'https://api.eco-spectrum.ru/api'
   },
 }
 
