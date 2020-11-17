@@ -13,6 +13,19 @@
     </div>
     <div class="uk-container uk-container-large">
       <h1 class="uk-heading-bullet h1-title uk-margin-medium-bottom">О компании</h1>
+      <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-flip">Open</button>
+
+      <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+        <div class="uk-offcanvas-bar">
+
+          <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+          <h3>Title</h3>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        </div>
+      </div>
       <div v-html="getPage.description" class="uk-card uk-card-default uk-card-body"></div>
     </div>
   </div>
